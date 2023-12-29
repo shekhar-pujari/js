@@ -54,3 +54,29 @@ Return type of variables in JavaScript
        Function  =>  function
        Object  =>  object
 */
+
+/* ********************************************************
+Memory in JS
+    Stack (Primitive)
+    Heap (Non-primitive)
+
+*/
+
+let city = "Pune"
+let another_city = city 
+another_city = "Bangalore"
+
+console.log(city);
+console.log(another_city);
+
+let user1 = {
+    name: "Mitesh",
+    age: 32,
+    city: "Pune"
+}
+
+let user2 = user1
+user2.age = 45
+
+console.log(user1);
+console.log(user2);
